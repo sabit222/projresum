@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @Service
 public class JwtService {
 
-    private static final String secretKey = "SRPSKDSPFf32SDLRLFV<KVfmvjfvnaoslmfooijfurfurjnfhhadgvcfbcbgefq2234mkffdfdfsadsdefedfvxxsadw245678899890956893hfbhf";
+    private static final String secretKey = "SRPSKDSPFf32SDLRLFVKVfmvjfvnaoslmfooijfurfurjnfhhadgvcfbcbgefq2234mkffdfdfsadsdefedfvxxsadw245678899890956893hfbhf";
     private static final long jwtExpiration = 86400000;
     private static final long refreshExpiration = 604800000;
 
